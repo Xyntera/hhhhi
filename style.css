@@ -43,11 +43,11 @@ main {
     text-decoration: underline;
 }
 
-.notifications {
+.notifications, .email-notifications {
     margin-top: 2rem;
 }
 
-#enable-notifications {
+#enable-notifications, .email-notifications button {
     padding: 0.5rem 1rem;
     background-color: #4CAF50;
     color: white;
@@ -56,8 +56,15 @@ main {
     cursor: pointer;
 }
 
-#enable-notifications:hover {
+#enable-notifications:hover, .email-notifications button:hover {
     background-color: #45a049;
+}
+
+.email-notifications input {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 footer {
